@@ -80,6 +80,7 @@ function DiagnosisPlayer() {
         /* ③ onClick を書く */
         /* ⑥ 実習②で、この7行を差し替える */
         onClick={handleAnswerNext}
+        disabled={!selectedId}
       >
         次へ
       </button>
