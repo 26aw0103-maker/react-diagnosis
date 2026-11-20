@@ -78,8 +78,8 @@ function DiagnosisPlayer() {
       <button
         className="next"
         /* ③ onClick を書く */
-        onClick={handleNext}
         /* ⑥ 実習②で、この7行を差し替える */
+        onClick={handleAnswerNext}
       >
         次へ
       </button>
